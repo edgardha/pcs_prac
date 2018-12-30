@@ -1,6 +1,3 @@
-section .data
-    prog db "/bin/sh"
-
 section .text
     global _start
 
