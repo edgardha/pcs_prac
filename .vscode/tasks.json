@@ -8,11 +8,13 @@
             "type": "shell",
             "command": "g++",
             "args": [
+                
                 "-g",
                 "vuln.cc",
                 "-o",
                 "prac",
-                "-fno-stack-protector"
+                "-fno-stack-protector",
+                "-zexecstack"
             ],
             "group": {
                 "kind": "build",
